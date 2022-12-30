@@ -1,0 +1,158 @@
+.main-1{
+    display: flex;
+ }
+ .tasks{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+ }
+ .items{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ 
+ .text-input{
+    font-size: x-large;
+    border-radius: 5px;
+ }
+ 
+ 
+ 
+ .page2div1{
+     filter: blur(2px);
+ }
+ .page2-div1{
+     height: 250px;
+     width: 500px;
+     border: 0px solid blue;
+     border-radius: 10px;
+     background-color: white;
+     color: #424242;
+     box-shadow: 0px 0px 20px #67676729;
+     position: absolute;
+     top: 35%;
+     left: 30%;
+     border:1px solid black ;
+ }
+ .add-cross{    height: 60px;}
+ .upper{    float: left;
+     margin-left: 20px;
+     font-size: xx-large;
+     padding: 10px;
+ }
+     .cross{float: right;
+         margin-top: 1em;
+         margin-right: 1em; 
+     }
+ 
+ .button-page2{float: right;
+     border: 0px;
+     height: 25px;
+     width: 100px;
+     margin-top: 65px;
+     margin-right: 40px;
+     border-radius: 10px;
+     color: #FFFFFF;
+     background-color: #00A5EC;
+ }
+ .button-page2:hover{ background-color: red;
+     height: 35px;
+     width:400px;}
+    
+     .display{
+         display: flex;
+     }
+
+
+
+.main-2{
+    top: 200px;
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    height: 170px;
+    background-color: aquamarine;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    display: none;
+} 
+.tab{
+
+    display: flex;
+    justify-content: space-around;
+}
+/* .add{
+   
+} */
+.popup{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: ; */
+}
+
+
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding: 38px;
+    
+    
+ }
+   
+
+.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(197, 142, 39);
+}
+
+
+
+
+ /* page-3 */
+ .page-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 348px;
+    
+ }
+
+ 
+.page-3-card{
+    width: 300px;
+    height: 170px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 20px;
+    display: none;
+}
+.pop-3{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+
+
+/* page4 */
+.page-4{
+    display: none;
+   
+}
+.cente-box{
+ display: flex;
+ justify-content: center;
+ 
+} 
