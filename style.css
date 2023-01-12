@@ -1,5 +1,16 @@
+
+    body{
+    background-color: bisque;
+    }
+
+
 .main-1{
     display: flex;
+ }
+ .no-list-added{
+    text-align: center;
+    color: red;
+    display: none;
  }
  .tasks{
      width: 50%;
@@ -69,7 +80,7 @@
 
 .main-2{
     top: 200px;
-    position: absolute;
+    position:absolute;
     border-radius: 10px;
     border: 2px solid black;
     padding: 20px;
@@ -123,8 +134,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 348px;
+    position:sticky;
+    bottom: 150px;
     
  }
 
@@ -154,5 +165,25 @@
 .cente-box{
  display: flex;
  justify-content: center;
- 
+ font-style: italic;
+} 
+
+@media screen and (min-width:320px) and (max-width:720px) {
+
+    .main-1{
+        display: block;
+    }
+   .none{
+    display: none;
+   }
+   .list{
+        display: block;
+        width: 100px;
+        padding-left:0px;
+
+    }
+    .page-3{
+        position: sticky;
+       bottom: 30px;
+    }
 } 
